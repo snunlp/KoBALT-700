@@ -136,3 +136,22 @@ Please refer to `evaluation_protocol.md` file for the detailed guidelines on mod
 ## License
 
 KoBALT is released under the **[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)** license.
+
+---
+
+## Citation
+
+If you use this resource, please cite as follows:
+
+```bibtex
+@misc{shin2025kobaltkoreanbenchmarkadvanced,
+      title={KoBALT: Korean Benchmark For Advanced Linguistic Tasks}, 
+      author={Hyopil Shin and Sangah Lee and Dongjun Jang and Wooseok Song and Jaeyoon Kim and Chaeyoung Oh and Hyemi Jo and Youngchae Ahn and Sihyun Oh and Hyohyeong Chang and Sunkyoung Kim and Jinsik Lee},
+      year={2025},
+      eprint={2505.16125},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.16125}, 
+}
+```
+```
