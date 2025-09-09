@@ -61,24 +61,24 @@ Below is a sample entry from the dataset:
 ```json
 {
   "ID": "67ce909c0b81d8ffa89e4fbb",
-  "대분류": "의미론",
-  "소분류": "sentence/phrase 사이의 의미 관계",
-  "question": "지문:\n영진: 수빈아, 혹시 지금 시간 돼? 다음주 회의 관련해서 부탁할 게 있어서.\n수빈: 무슨 일을 (ㄱ) [  ]? 뭐, 생각해보니 저번에 나도 너한테 신세를 (ㄴ) [  ] 일단 (ㄷ) [ ].\n\n문제: 영진이와 수빈이가 나누는 대화의 맥락상 빈칸에 들어갈 표현으로 가장 적절한 것을 (ㄱ), (ㄴ), (ㄷ) 순서대로 나열하시오.\n\nA: 벌이려고, 면했어서, 들러볼게\nB: 꾸미니, 갚으니깐, 들려볼까\nC: 맡기려나, 졌으니까, 들어보렴\nD: 시키겠는데, 고치도록, 들어볼게\nE: 시키려고, 졌으므로, 들어줘\nF: 계획하는구나, 갚으려면, 들어주라\nG: 벌이게, 졌어서, 들어줬구나\nH: 꾸미길래, 졌어서, 들어봐야지\nI: 계획하는데, 깨달아서, 들러보겠어\nJ: 맡기게, 망쳤어서, 들려본다\n",
-  "answer": "H",
-  "난이도": 3,
-  "sampling_YN": 0
+  "Class": "Semantics",
+  "Subclass": "Inter-sentence Relations",
+  "Question": "지문:\n영진: 수빈아, 혹시 지금 시간 돼? 다음주 회의 관련해서 부탁할 게 있어서.\n수빈: 무슨 일을 (ㄱ) [  ]? 뭐, 생각해보니 저번에 나도 너한테 신세를 (ㄴ) [  ] 일단 (ㄷ) [ ].\n\n문제: 영진이와 수빈이가 나누는 대화의 맥락상 빈칸에 들어갈 표현으로 가장 적절한 것을 (ㄱ), (ㄴ), (ㄷ) 순서대로 나열하시오.\n\nA: 벌이려고, 면했어서, 들러볼게\nB: 꾸미니, 갚으니깐, 들려볼까\nC: 맡기려나, 졌으니까, 들어보렴\nD: 시키겠는데, 고치도록, 들어볼게\nE: 시키려고, 졌으므로, 들어줘\nF: 계획하는구나, 갚으려면, 들어주라\nG: 벌이게, 졌어서, 들어줬구나\nH: 꾸미길래, 졌어서, 들어봐야지\nI: 계획하는데, 깨달아서, 들러보겠어\nJ: 맡기게, 망쳤어서, 들려본다\n",
+  "Answer": "H",
+  "Level": 3,
+  "Sampling_YN": 0
 }
 ```
 
 ### Columns
 
 - **`ID`**: unique identifier
-- **`대분류`**: major linguistic domain (e.g., 의미론)
-- **`소분류`**: fine-grained phenomenon
-- **`question`**: question with multiple-choice options
-- **`answer`**: correct option key (A~J)
-- **`난이도`**: difficulty level (1–3)
-- **`sampling_YN`**: whether the item was included in **Human Preference Test** (1 = yes, 0 = no)
+- **`Class`**: major linguistic domain (e.g., 의미론)
+- **`Subclass`**: fine-grained phenomenon
+- **`Question`**: question with multiple-choice options
+- **`Answer`**: correct option key (A~J)
+- **`Level`**: difficulty level (1–3)
+- **`Sampling_YN`**: whether the item was included in **Human Preference Test** (1 = yes, 0 = no)
 
 Please refer to `evaluation_protocol.md` file for the detailed guidelines on model evaluation.
 
