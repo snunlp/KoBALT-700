@@ -73,7 +73,7 @@ Below is a sample entry from the dataset:
 ### Columns
 
 - **`ID`**: unique identifier
-- **`Class`**: major linguistic domain (e.g., 의미론)
+- **`Class`**: major linguistic domain (e.g., Semantics)
 - **`Subclass`**: fine-grained phenomenon
 - **`Question`**: question with multiple-choice options
 - **`Answer`**: correct option key (A~J)
